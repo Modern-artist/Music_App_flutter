@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "1d3d4d1901bcf6eb3be645b209a4f11216c1f3a882f3dbc4e3eb21b621a15658"
+build_start_time: [1682150032, 79612016]
+build_end_time: [1682150039, 632431983]
+inputs:
+  "/Users/modernartist/Desktop/flutter/music_app/macos/Flutter/GeneratedPluginRegistrant.swift": [1682150001, 666423797]
+  "/Users/modernartist/Desktop/flutter/music_app/macos/Runner/AppDelegate.swift": [1674585417, 0]
+  "/Users/modernartist/Desktop/flutter/music_app/macos/Runner/MainFlutterWindow.swift": [1674585417, 0]

@@ -120,6 +120,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.6.5"
+  id3:
+    dependency: transitive
+    description:
+      name: id3
+      sha256: "24176a6e08db6297c8450079e94569cd8387f913c817e5e3d862be7dc191e0b8"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.2"
   js:
     dependency: transitive
     description:
@@ -184,6 +192,46 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.8.0"
+  on_audio_query:
+    dependency: "direct main"
+    description:
+      name: on_audio_query
+      sha256: a06f314f0db21d1654558def8359e8e18c4f917c199353d70e6261b28aa8d01f
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.8.1"
+  on_audio_query_android:
+    dependency: transitive
+    description:
+      name: on_audio_query_android
+      sha256: a2f15ce68841f29a4492a93c81964a13ee56fa78a329db8a4889255f763c28ef
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.1"
+  on_audio_query_ios:
+    dependency: transitive
+    description:
+      name: on_audio_query_ios
+      sha256: "03b8e19102f919715db03355b14a2cbea87f3d5b18404352320f3b42eb7b3290"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.1"
+  on_audio_query_platform_interface:
+    dependency: transitive
+    description:
+      name: on_audio_query_platform_interface
+      sha256: "39a64805cd620d35c4eda6944b8476831437efd617b98f84946b8086dd27739d"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.6.1"
+  on_audio_query_web:
+    dependency: transitive
+    description:
+      name: on_audio_query_web
+      sha256: "616d57400661fb7e5b13fb163cedc285a841bde7cb9197ae53dc5bfb295faca1"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.5.1"
   path:
     dependency: transitive
     description:
@@ -240,6 +288,46 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.5"
+  permission_handler:
+    dependency: "direct main"
+    description:
+      name: permission_handler
+      sha256: "33c6a1253d1f95fd06fa74b65b7ba907ae9811f9d5c1d3150e51417d04b8d6a8"
+      url: "https://pub.dev"
+    source: hosted
+    version: "10.2.0"
+  permission_handler_android:
+    dependency: transitive
+    description:
+      name: permission_handler_android
+      sha256: "8028362b40c4a45298f1cbfccd227c8dd6caf0e27088a69f2ba2ab15464159e2"
+      url: "https://pub.dev"
+    source: hosted
+    version: "10.2.0"
+  permission_handler_apple:
+    dependency: transitive
+    description:
+      name: permission_handler_apple
+      sha256: ee96ac32f5a8e6f80756e25b25b9f8e535816c8e6665a96b6d70681f8c4f7e85
+      url: "https://pub.dev"
+    source: hosted
+    version: "9.0.8"
+  permission_handler_platform_interface:
+    dependency: transitive
+    description:
+      name: permission_handler_platform_interface
+      sha256: "68abbc472002b5e6dfce47fe9898c6b7d8328d58b5d2524f75e277c07a97eb84"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.9.0"
+  permission_handler_windows:
+    dependency: transitive
+    description:
+      name: permission_handler_windows
+      sha256: f67cab14b4328574938ecea2db3475dad7af7ead6afab6338772c5f88963e38b
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.1.2"
   platform:
     dependency: transitive
     description:

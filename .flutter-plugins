@@ -2,8 +2,16 @@
 audio_session=/Users/modernartist/.pub-cache/hosted/pub.dev/audio_session-0.1.13/
 just_audio=/Users/modernartist/.pub-cache/hosted/pub.dev/just_audio-0.9.32/
 just_audio_web=/Users/modernartist/.pub-cache/hosted/pub.dev/just_audio_web-0.4.7/
+on_audio_query=/Users/modernartist/.pub-cache/hosted/pub.dev/on_audio_query-2.8.1/
+on_audio_query_android=/Users/modernartist/.pub-cache/hosted/pub.dev/on_audio_query_android-1.0.1/
+on_audio_query_ios=/Users/modernartist/.pub-cache/hosted/pub.dev/on_audio_query_ios-1.0.1/
+on_audio_query_web=/Users/modernartist/.pub-cache/hosted/pub.dev/on_audio_query_web-1.5.1/
 path_provider=/Users/modernartist/.pub-cache/hosted/pub.dev/path_provider-2.0.14/
 path_provider_android=/Users/modernartist/.pub-cache/hosted/pub.dev/path_provider_android-2.0.25/
 path_provider_foundation=/Users/modernartist/.pub-cache/hosted/pub.dev/path_provider_foundation-2.2.2/
 path_provider_linux=/Users/modernartist/.pub-cache/hosted/pub.dev/path_provider_linux-2.1.10/
 path_provider_windows=/Users/modernartist/.pub-cache/hosted/pub.dev/path_provider_windows-2.1.5/
+permission_handler=/Users/modernartist/.pub-cache/hosted/pub.dev/permission_handler-10.2.0/
+permission_handler_android=/Users/modernartist/.pub-cache/hosted/pub.dev/permission_handler_android-10.2.0/
+permission_handler_apple=/Users/modernartist/.pub-cache/hosted/pub.dev/permission_handler_apple-9.0.8/
+permission_handler_windows=/Users/modernartist/.pub-cache/hosted/pub.dev/permission_handler_windows-0.1.2/

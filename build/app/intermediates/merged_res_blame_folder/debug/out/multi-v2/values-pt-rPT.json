@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.music_app-mergeDebugResources-14:/values-pt-rPT/values-pt-rPT.xml",
+            "outputFile": "com.example.music_app-mergeDebugResources-15:/values-pt-rPT/values-pt-rPT.xml",
             "map": [
                 {
                     "source": "/Users/modernartist/.gradle/caches/transforms-3/401e3fa5aba30c515133839c7436fb83/transformed/jetified-media2-session-1.2.0/res/values-pt-rPT/values-pt-rPT.xml",

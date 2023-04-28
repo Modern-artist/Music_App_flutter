@@ -18,8 +18,11 @@ INJECTED from /Users/modernartist/Desktop/flutter/music_app/android/app/src/main
 INJECTED from /Users/modernartist/Desktop/flutter/music_app/android/app/src/main/AndroidManifest.xml:1:1-36:12
 MERGED from /Users/modernartist/Desktop/flutter/music_app/android/app/src/main/AndroidManifest.xml:1:1-36:12
 MERGED from [:just_audio] /Users/modernartist/Desktop/flutter/music_app/build/just_audio/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:permission_handler_android] /Users/modernartist/Desktop/flutter/music_app/build/permission_handler_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:path_provider_android] /Users/modernartist/Desktop/flutter/music_app/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:audio_session] /Users/modernartist/Desktop/flutter/music_app/build/audio_session/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:on_audio_query_android] /Users/modernartist/Desktop/flutter/music_app/build/on_audio_query_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /Users/modernartist/.gradle/caches/transforms-3/81241baf1724590ca8f723ee0686eeee/transformed/jetified-lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/modernartist/.gradle/caches/transforms-3/006d93cd422dbc43e89591147c2de572/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.window:window:1.0.0-beta04] /Users/modernartist/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
 MERGED from [com.google.android.exoplayer:exoplayer-dash:2.18.1] /Users/modernartist/.gradle/caches/transforms-3/1eb6c6afabb28c675cc39dd71cb03f6e/transformed/jetified-exoplayer-dash-2.18.1/AndroidManifest.xml:17:1-24:12
@@ -42,8 +45,8 @@ MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.18.1] /Users/moder
 MERGED from [com.google.android.exoplayer:exoplayer-database:2.18.1] /Users/modernartist/.gradle/caches/transforms-3/e4d1151e2d3aecc6584a92f876676836/transformed/jetified-exoplayer-database-2.18.1/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.1] /Users/modernartist/.gradle/caches/transforms-3/b6f298680c9ee42c5d868b091347d3fc/transformed/jetified-exoplayer-common-2.18.1/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/modernartist/.gradle/caches/transforms-3/5abdc06e026f2f7b9b89c25dcd7a6d7e/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/modernartist/.gradle/caches/transforms-3/114d02d556db7f0c7636ae1c78b77699/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/modernartist/.gradle/caches/transforms-3/76da31ad033c53187dd7271282d0f7d2/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/modernartist/.gradle/caches/transforms-3/282676124ae0776b5645a1cee909808d/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/modernartist/.gradle/caches/transforms-3/95578c0d327ed1d1ac84d08493ede1cf/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/modernartist/.gradle/caches/transforms-3/7f4e81502f72dd837dc1e0ddcbb11c26/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/modernartist/.gradle/caches/transforms-3/3343d1c6adfed9e861db7c3f7f2df83a/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
@@ -80,10 +83,16 @@ INJECTED from /Users/modernartist/Desktop/flutter/music_app/android/app/src/main
 INJECTED from /Users/modernartist/Desktop/flutter/music_app/android/app/src/main/AndroidManifest.xml
 MERGED from [:just_audio] /Users/modernartist/Desktop/flutter/music_app/build/just_audio/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:just_audio] /Users/modernartist/Desktop/flutter/music_app/build/just_audio/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:permission_handler_android] /Users/modernartist/Desktop/flutter/music_app/build/permission_handler_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:permission_handler_android] /Users/modernartist/Desktop/flutter/music_app/build/permission_handler_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:path_provider_android] /Users/modernartist/Desktop/flutter/music_app/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:path_provider_android] /Users/modernartist/Desktop/flutter/music_app/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:audio_session] /Users/modernartist/Desktop/flutter/music_app/build/audio_session/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:audio_session] /Users/modernartist/Desktop/flutter/music_app/build/audio_session/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:on_audio_query_android] /Users/modernartist/Desktop/flutter/music_app/build/on_audio_query_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:on_audio_query_android] /Users/modernartist/Desktop/flutter/music_app/build/on_audio_query_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /Users/modernartist/.gradle/caches/transforms-3/81241baf1724590ca8f723ee0686eeee/transformed/jetified-lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /Users/modernartist/.gradle/caches/transforms-3/81241baf1724590ca8f723ee0686eeee/transformed/jetified-lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/modernartist/.gradle/caches/transforms-3/006d93cd422dbc43e89591147c2de572/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/modernartist/.gradle/caches/transforms-3/006d93cd422dbc43e89591147c2de572/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window:1.0.0-beta04] /Users/modernartist/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
@@ -128,10 +137,10 @@ MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.1] /Users/modern
 MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.1] /Users/modernartist/.gradle/caches/transforms-3/b6f298680c9ee42c5d868b091347d3fc/transformed/jetified-exoplayer-common-2.18.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/modernartist/.gradle/caches/transforms-3/5abdc06e026f2f7b9b89c25dcd7a6d7e/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/modernartist/.gradle/caches/transforms-3/5abdc06e026f2f7b9b89c25dcd7a6d7e/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/modernartist/.gradle/caches/transforms-3/114d02d556db7f0c7636ae1c78b77699/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/modernartist/.gradle/caches/transforms-3/114d02d556db7f0c7636ae1c78b77699/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/modernartist/.gradle/caches/transforms-3/76da31ad033c53187dd7271282d0f7d2/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/modernartist/.gradle/caches/transforms-3/76da31ad033c53187dd7271282d0f7d2/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/modernartist/.gradle/caches/transforms-3/282676124ae0776b5645a1cee909808d/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/modernartist/.gradle/caches/transforms-3/282676124ae0776b5645a1cee909808d/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/modernartist/.gradle/caches/transforms-3/95578c0d327ed1d1ac84d08493ede1cf/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/modernartist/.gradle/caches/transforms-3/95578c0d327ed1d1ac84d08493ede1cf/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/modernartist/.gradle/caches/transforms-3/7f4e81502f72dd837dc1e0ddcbb11c26/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44

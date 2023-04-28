@@ -2,64 +2,86 @@
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:music_app/player/player_controller.dart';
+import 'package:on_audio_query/on_audio_query.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
+    var controller = Get.put(PlayerController());
     return Container(
-      decoration: const BoxDecoration(
-          gradient: LinearGradient(
-              begin: Alignment.topCenter,
-              end: Alignment.bottomCenter,
-              colors: [Colors.black, Colors.black])),
-      child: Scaffold(
+        decoration: const BoxDecoration(
+            gradient: LinearGradient(
+                begin: Alignment.topCenter,
+                end: Alignment.bottomCenter,
+                colors: [Colors.black, Colors.black])),
+        child: Scaffold(
           backgroundColor: Colors.transparent,
           appBar: const _CustomAppBar(),
           bottomNavigationBar: const _CustomNavBar(),
-          body:
-              //  SingleChildScrollView(
-              //   child: Column(children: [
-              //     const _DiscoverMusic(),
-              Padding(
-            padding: const EdgeInsets.all(8),
-            child: ListView.builder(
-              physics: const BouncingScrollPhysics(),
-              itemCount: 10,
-              itemBuilder: (BuildContext context, int index) {
-                return Container(
-                  decoration:
-                      BoxDecoration(borderRadius: BorderRadius.circular(8)),
-                  child: const ListTile(
-                    title: Text(
-                      "Music",
-                      style: TextStyle(color: Colors.white),
+          body: FutureBuilder<List<SongModel>>(
+              future: controller.audioQuery.querySongs(
+                  ignoreCase: true,
+                  orderType: OrderType.ASC_OR_SMALLER,
+                  sortType: null,
+                  uriType: UriType.EXTERNAL),
+              builder: (BuildContext context, snapshot) {
+                if (snapshot.data == null) {
+                  return const Center(child: CircularProgressIndicator());
+                } else if (snapshot.data!.isEmpty) {
+                  // print(snapshot.data);
+                  return const Center(
+                      child: Text(
+                    "No data.. LOL-_-",
+                    style: TextStyle(fontSize: 24, color: Colors.amber),
+                  ));
+                } else {
+                  // print("starts here");
+                  // print(snapshot.data![1].displayNameWOExt);
+                  // print("ends here");
+                  return Padding(
+                    padding: const EdgeInsets.all(8),
+                    child: ListView.builder(
+                      physics: const BouncingScrollPhysics(),
+                      itemCount: 2,
+                      itemBuilder: (BuildContext context, int index) {
+                        print("starts here");
+                        print("index = $index");
+                        print(snapshot.data![index].artist);
+                        print("ends here");
+                        return Container(
+                          decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(8)),
+                          child: ListTile(
+                            title: Text(
+                              snapshot.data![index].displayNameWOExt,
+                              // "$snapshot.data![index].displayNameWOExt",
+                              // songs[index].title,
+                              style: TextStyle(color: Colors.white),
+                            ),
+                            subtitle: Text(
+                              "${snapshot.data![index].artist}",
+                              // "artist $index",
+                              style: TextStyle(color: Colors.white),
+                            ),
+                            leading: Icon(
+                              Icons.music_note,
+                              color: Colors.amber,
+                            ),
+                            trailing: Icon(
+                              Icons.play_arrow,
+                              color: Colors.amber,
+                            ),
+                          ),
+                        );
+                      },
                     ),
-                    subtitle: Text(
-                      "Artist",
-                      style: TextStyle(color: Colors.white),
-                    ),
-                    leading: Icon(
-                      Icons.music_note,
-                      color: Colors.amber,
-                    ),
-                    trailing: Icon(
-                      Icons.play_arrow,
-                      color: Colors.amber,
-                    ),
-                  ),
-                );
-              },
-            ),
-          )
-          // ]),
-          // ),
-          ),
-
-      // decoration: const BoxDecoration(color: Colors.amber),
-      // child: const Scaffold(appBar: _CustomAppBar()),
-    );
+                  );
+                }
+              }),
+        ));
   }
 }
 

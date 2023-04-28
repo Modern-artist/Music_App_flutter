@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.music_app-mergeDebugResources-14:/values-v24/values-v24.xml",
+            "outputFile": "com.example.music_app-mergeDebugResources-15:/values-v24/values-v24.xml",
             "map": [
                 {
                     "source": "/Users/modernartist/.gradle/caches/transforms-3/5e776b2036c73d73db0c316ecc027c07/transformed/media-1.4.1/res/values-v24/values-v24.xml",

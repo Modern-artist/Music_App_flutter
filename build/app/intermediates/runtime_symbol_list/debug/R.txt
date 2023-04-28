@@ -163,6 +163,7 @@ int id text2 0x7f050053
 int id time 0x7f050054
 int id title 0x7f050055
 int id view_tree_lifecycle_owner 0x7f050056
+int id view_tree_view_model_store_owner 0x7f050057
 int integer cancel_button_image_alpha 0x7f060000
 int integer status_bar_notification_info_maxnum 0x7f060001
 int layout custom_dialog 0x7f070000

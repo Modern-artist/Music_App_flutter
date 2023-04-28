@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.music_app-mergeDebugResources-14:/values-km/values-km.xml",
+            "outputFile": "com.example.music_app-mergeDebugResources-15:/values-km/values-km.xml",
             "map": [
                 {
                     "source": "/Users/modernartist/.gradle/caches/transforms-3/74ce2690f7529852b8321388684fcbb6/transformed/core-1.7.0/res/values-km/values-km.xml",

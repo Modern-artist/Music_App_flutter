@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.music_app-mergeDebugResources-14:/values-uk/values-uk.xml",
+            "outputFile": "com.example.music_app-mergeDebugResources-15:/values-uk/values-uk.xml",
             "map": [
                 {
                     "source": "/Users/modernartist/.gradle/caches/transforms-3/eed6c775712772b7adb51f80912e1f44/transformed/jetified-exoplayer-core-2.18.1/res/values-uk/values-uk.xml",
